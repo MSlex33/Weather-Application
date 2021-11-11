@@ -13,6 +13,7 @@
 		11E42065273CEB1600C78072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E42063273CEB1600C78072 /* Main.storyboard */; };
 		11E42067273CEB1600C78072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E42066273CEB1600C78072 /* Assets.xcassets */; };
 		11E4206A273CEB1600C78072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E42068273CEB1600C78072 /* LaunchScreen.storyboard */; };
+		11E42072273CEE6500C78072 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E42071273CEE6500C78072 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		11E42066273CEB1600C78072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E42069273CEB1600C78072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E4206B273CEB1600C78072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E42071273CEE6500C78072 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				11E42066273CEB1600C78072 /* Assets.xcassets */,
 				11E42068273CEB1600C78072 /* LaunchScreen.storyboard */,
 				11E4206B273CEB1600C78072 /* Info.plist */,
+				11E42071273CEE6500C78072 /* NewViewController.swift */,
 			);
 			path = "Weather Application";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				11E42062273CEB1600C78072 /* ViewController.swift in Sources */,
 				11E4205E273CEB1600C78072 /* AppDelegate.swift in Sources */,
 				11E42060273CEB1600C78072 /* SceneDelegate.swift in Sources */,
+				11E42072273CEE6500C78072 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
